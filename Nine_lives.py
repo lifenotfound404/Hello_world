@@ -4,6 +4,7 @@ lives = 10
 
 words = ['berry', 'chokes', 'whores', 'honey', 'tiles', 'berta', 'sluts', 'harry'
         , 'boner', 'shored', 'short', 'bondage', 'cottage', 'pussy' ,'fussy']
+
 secret_word = random.choice(words)
 clue = []
 index = 0
@@ -54,12 +55,9 @@ while lives > 0:
         guessed_word = True
         break
     
-    
-    
-
+  
 if guessed_word:
     print('You won! The secret word was ' + secret_word)
 
 else:
     print('You lost! The secret word was ' + secret_word)
- 
